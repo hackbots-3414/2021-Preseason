@@ -21,7 +21,7 @@ This is my chapter.
 Chapter 6
 
 
-Chapter 7 
+Chapter 7 This is a practice chapter.
 
 
 Chapter 8
