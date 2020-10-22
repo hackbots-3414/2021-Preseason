@@ -1,8 +1,11 @@
-                                    TITLE
+
+                                              Our Hackbots 2021 Preseason Story
+
 
 Introduction
 
-Chapter 1
+
+Chapter 1 Hellohellohello
 
 
 Chapter 2
@@ -15,16 +18,20 @@ Chapter 4
 
 
 Chapter 5
-
+This is my chapter. 
 
 Chapter 6
 
 
-Chapter 7 
+Chapter 7 This is a practice chapter.
 
 
 Chapter 8
+jacobchapter8
 jacob's chapter
+
+This is Lucas's (AKA Smooth1e) chapter
+main
 
 Chapter 9
 
@@ -47,8 +54,8 @@ Chapter 14
 Chapter 15
 
 
-Chapter 16
-
+Chapter 16 
+This is Max
 
 Chapter 17
 
