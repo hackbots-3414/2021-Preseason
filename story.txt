@@ -27,7 +27,11 @@ Chapter 7 This is a practice chapter.
 
 
 Chapter 8
+jacobchapter8
+jacob's chapter
+
 This is Lucas's (AKA Smooth1e) chapter
+main
 
 Chapter 9
 
