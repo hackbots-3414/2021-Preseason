@@ -1,0 +1,37 @@
+For tonight:
+
+1) Fetch code and reset working tree
+    checkout main
+    press the synchronize button
+    Look for a SimpleStory example project under 2021_Preseason
+
+
+2) Create new branch
+    git checkout -b _your_name_storypart 
+
+3) Inside the storyparts folder (package in Java), right-click, Create New Class
+    give it a name, _your_name_StoryPart (e.g. MrZStoryPart)
+
+4) Implement the StoryPart interface
+    Locate your class's "public class _class_name_ {" line
+    Add, "implements StoryPart" between the _class_name_ and {
+
+5) Fix the compile error about a missing method, getMyPart()
+    Add your own text
+    Don't forget to add it to Robot.buildStoryParts()!
+        hint: storyParts.add(new _class_name_());
+
+6) Run the simulation (WPILib: Simulate Robot Code on Desktop)
+
+7) Enable Test mode
+    watch the story dump to the Terminal
+
+8) Disable the Robot
+
+9) Add your files to your git branch
+
+10) git commit, git push
+
+11) open a pull request
+
+12) synchronize with others
