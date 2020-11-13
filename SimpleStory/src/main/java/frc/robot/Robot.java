@@ -14,23 +14,22 @@ import edu.wpi.first.wpilibj.PWMVictorSPX;
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
-LucasStoryPart
+// LucasStoryPart
 //import frc.robot.storyparts.MrZStoryPart;
-import frc.robot.storyparts.LucasStoryPart;
+import frc.robot.storyparts.SamarthStoryPart;
 
-MarcusStoryPart
+// MarcusStoryPart
 //import frc.robot.storyparts.MrZStoryPart;
 import frc.robot.storyparts.MarcusStoryPart;
- main
 
-JoeyPStoryParts
+
+// JoeyPStoryParts
 //import frc.robot.storyparts.MrZStoryPart;
 import frc.robot.storyparts.JoeyPStoryPart;
-
+import frc.robot.storyparts.LucasStoryPart;
 import frc.robot.storyparts.MrZStoryPartClass;
-main
+import frc.robot.storyparts.SamarthStoryPart;
 
-main
 /**
  * The VM is configured to automatically run this class, and to call the
  * functions corresponding to each mode, as described in the TimedRobot
@@ -59,21 +58,20 @@ public class Robot extends TimedRobot {
    */
   private void buildStoryParts() {
     // make sure we add the story parts to our ArrayList
-LucasStoryPart
+    storyParts.add(new SamarthStoryPart());
+// LucasStoryPart
     storyParts.add(new LucasStoryPart());
     //storyParts.add(new MrZStoryPart());
 
     //storyParts.add(new MrZStoryPart());
-MarcusStoryPart
+// MarcusStoryPart
     storyParts.add(new MarcusStoryPart());
 
-JoeyPStoryParts
+// JoeyPStoryParts
     storyParts.add(new JoeyPStoryPart());
 
     storyParts.add(new MrZStoryPartClass());
-main
-main
-main
+
   }
 
   /**
