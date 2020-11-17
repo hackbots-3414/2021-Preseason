@@ -15,6 +15,9 @@ import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
 
+import frc.robot.storyparts.JulianStory;
+
+
 import frc.robot.storyparts.EthanStoryPart;
 
 
@@ -70,6 +73,9 @@ public class Robot extends TimedRobot {
   private void buildStoryParts() {
     // make sure we add the story parts to our ArrayList
 
+    storyParts.add(new JulianStory());
+
+
     storyParts.add(new SamarthStoryPart());
 
 
@@ -96,6 +102,7 @@ public class Robot extends TimedRobot {
 
     storyParts.add(new MrZStoryPartClass());
     storyParts.add(new MrZPart2StoryPart());
+
 
   }
 
