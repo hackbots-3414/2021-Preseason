@@ -14,8 +14,9 @@ import edu.wpi.first.wpilibj.PWMVictorSPX;
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
+import frc.robot.StoryPart;
 //import frc.robot.storyparts.MrZStoryPart;
-import frc.robot.storyparts.VikraantStoryPart;
+import frc.robot.storyparts.CarterStoryPart;
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -25,15 +26,14 @@ import frc.robot.storyparts.VikraantStoryPart;
  * directory.
  */
 public class Robot extends TimedRobot {
-  private final DifferentialDrive m_robotDrive
-      = new DifferentialDrive(new PWMVictorSPX(0), new PWMVictorSPX(1));
+  private final DifferentialDrive m_robotDrive = new DifferentialDrive(new PWMVictorSPX(0), new PWMVictorSPX(1));
   private final Joystick m_stick = new Joystick(0);
   private final Timer m_timer = new Timer();
   private final ArrayList<StoryPart> storyParts = new ArrayList<>();
 
   /**
-   * This function is run when the robot is first started up and should be
-   * used for any initialization code.
+   * This function is run when the robot is first started up and should be used
+   * for any initialization code.
    */
   @Override
   public void robotInit() {
@@ -45,8 +45,8 @@ public class Robot extends TimedRobot {
    */
   private void buildStoryParts() {
     // make sure we add the story parts to our ArrayList
-    //storyParts.add(new MrZStoryPart());
-    storyParts.add(new VikraantStoryPart());
+    // storyParts.add(new MrZStoryPart());
+    storyParts.add(new CarterStoryPart());
   }
 
   /**
@@ -91,11 +91,12 @@ public class Robot extends TimedRobot {
    */
   @Override
   public void testPeriodic() {
-    // StoryPart: iterate over the ArrayList, dumping each part of the story to the console.
+    // StoryPart: iterate over the ArrayList, dumping each part of the story to the
+    // console.
     // This runs lots when the Test mode is enabled
     System.out.println();
     System.out.println("-------------------------------------");
-    for (int i = 0; i < storyParts.size(); i ++) {
+    for (int i = 0; i < storyParts.size(); i++) {
       System.out.println(storyParts.get(i).getMyPart());
     }
     System.out.println("-------------------------------------");

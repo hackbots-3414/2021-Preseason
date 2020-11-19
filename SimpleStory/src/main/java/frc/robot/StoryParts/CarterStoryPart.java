@@ -12,12 +12,10 @@ import frc.robot.StoryPart;
 /**
  * Add your docs here.
  */
-public class RossStoryPart implements StoryPart {
+public class CarterStoryPart implements StoryPart {
 
     @Override
     public String getMyPart() {
-        
-        return "this is my part";
+        return "carter";
     }
-    
 }
