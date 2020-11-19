@@ -16,6 +16,7 @@ import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
 //import frc.robot.storyparts.MrZStoryPart;
 import frc.robot.storyparts.LucasStoryPart;
+import frc.robot.storyparts.LucasStoryPart2;
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -46,6 +47,7 @@ public class Robot extends TimedRobot {
   private void buildStoryParts() {
     // make sure we add the story parts to our ArrayList
     storyParts.add(new LucasStoryPart());
+    storyParts.add(new LucasStoryPart2());
     //storyParts.add(new MrZStoryPart());
   }
 
