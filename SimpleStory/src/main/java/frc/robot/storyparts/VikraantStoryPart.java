@@ -7,7 +7,7 @@
 
 package frc.robot.storyparts;
 
-import frc.robot.storyparts.StoryPart;
+import frc.robot.StoryPart;
 
 /**
  * Add your docs here.
