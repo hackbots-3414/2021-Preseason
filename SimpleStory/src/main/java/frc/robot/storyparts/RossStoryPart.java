@@ -5,7 +5,7 @@
 /* the project.                                                               */
 /*----------------------------------------------------------------------------*/
 
-package frc.robot.StoryParts;
+package frc.robot.storyparts;
 
 import frc.robot.StoryPart;
 
