@@ -128,7 +128,7 @@ public class Robot extends TimedRobot {
     storyParts.add(new MrZStoryPartClass());
     storyParts.add(new MrZPart2StoryPart());
 // JacobStoryPart
-    storyParts.add(new JacobStoryPart)
+    storyParts.add(new JacobStoryPart);
 
 
   }
