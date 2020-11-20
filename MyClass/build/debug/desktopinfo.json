@@ -1,0 +1,11 @@
+[
+  {
+    "name": "MyClass (in project MyClass)",
+    "file": "/Users/sravani/hackbots2021/2021-Preseason /MyClass/build/libs/MyClass.jar",
+    "extensions": [
+      "/Users/sravani/hackbots2021/2021-Preseason /MyClass/build/tmp/expandedArchives/halsim_gui-2020.3.2-osxx86-64.zip_02f832af7f13f2251d7c5f32a1297a31/osx/x86-64/shared/libhalsim_gui.dylib"
+    ],
+    "librarydir": "/Users/sravani/hackbots2021/2021-Preseason /MyClass/build/tmp/jniExtractDir",
+    "mainclass": "frc.robot.Main"
+  }
+]

@@ -17,4 +17,5 @@ public interface StoryPart {
      * @return the text for this part of the story
      */
     String getMyPart();
+    
 }
