@@ -14,6 +14,7 @@ import edu.wpi.first.wpilibj.PWMVictorSPX;
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
+import frc.robot.storyparts.CarterStoryPart;
 
 import frc.robot.storyparts.JulianStory;
 
@@ -122,6 +123,7 @@ public class Robot extends TimedRobot {
 // JacobStoryPart
     storyParts.add(new JacobStoryPart());
 
+    storyParts.add(new CarterStoryPart());
 
   }
 
