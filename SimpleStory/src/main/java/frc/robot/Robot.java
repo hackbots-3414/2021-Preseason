@@ -15,12 +15,10 @@ import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
 
-
-
 import frc.robot.storyparts.JulianStory;
 
-
 import frc.robot.storyparts.EthanStoryPart;
+
 
 import frc.robot.storyparts.JacobStoryPart;
 
@@ -29,19 +27,12 @@ import frc.robot.storyparts.JacobStoryPart;
 //import frc.robot.storyparts.MrZStoryPart;
 import frc.robot.storyparts.SamarthStoryPart;
 
-
-
 //import frc.robot.storyparts.MrZStoryPart;
 import frc.robot.storyparts.MarcusStoryPart;
- 
 
 // MarcusStoryPart
 //import frc.robot.storyparts.MrZStoryPart;
 import frc.robot.storyparts.MarcusStoryPart;
-
-
-
-
 
 //import frc.robot.storyparts.MrZStoryPart;
 import frc.robot.storyparts.MarcusStoryPart;
@@ -50,6 +41,7 @@ import frc.robot.storyparts.MrZPart2StoryPart;
 //import frc.robot.storyparts.MrZStoryPart;
 import frc.robot.storyparts.JoeyPStoryPart;
 import frc.robot.storyparts.LucasStoryPart;
+import frc.robot.storyparts.MarcoStoryPart;
 import frc.robot.storyparts.MrZStoryPartClass;
 
 import frc.robot.storyparts.Sanjanastorypartclass;
@@ -99,7 +91,7 @@ public class Robot extends TimedRobot {
 
     storyParts.add(new LucasStoryPart());
     //storyParts.add(new MrZStoryPart());
-
+    storyParts.add(new MarcoStoryPart());
     //storyParts.add(new MrZStoryPart());
 
 
